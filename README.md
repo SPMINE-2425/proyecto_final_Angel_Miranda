@@ -53,7 +53,7 @@ pip install poetry
 ```bash
 poetry install
 ```
-## ## 📂 Estructura del proyecto
+## 📂 Estructura del proyecto
 
 ```plaintext
 PROYECTO_FINAL_JSAP/
