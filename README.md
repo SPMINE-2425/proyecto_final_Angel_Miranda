@@ -92,6 +92,9 @@ PROYECTO_FINAL_JSAP/
 ├── pytest.ini
 └── README.md
 ```
+## Autores
+- Juan Sebastian Angel Perez (juan.angel6@est.uexternado.edu.co)
+- Diego Hernando Miranda Jimenez (diego.miranda1@est.uexternado.edu.co)
 
 ## 💻 Uso y Ejecución de la Aplicación
 El sistema requiere que el servidor de la API y la interfaz de usuario se ejecuten simultáneamente en dos procesos separados.
