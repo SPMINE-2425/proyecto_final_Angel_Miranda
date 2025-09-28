@@ -53,6 +53,45 @@ pip install poetry
 ```bash
 poetry install
 ```
+## ## 📂 Estructura del proyecto
+
+```plaintext
+PROYECTO_FINAL_JSAP/
+├── app/                        # Aplicación principal
+│   └── app.py
+│
+├── data/                       # Datos del proyecto
+│   ├── processed/              # Datos procesados y modelo entrenado
+│   │   ├── model.pkl
+│   │   └── StudentPerformanceFactors_clean.csv
+│   └── raw/                    # Datos originales
+│       └── StudentPerformanceFactors.csv
+│
+├── docs/                       # Documentación e imágenes
+│   └── img/
+│       ├── prediccion_modelo.png
+│       ├── ui_inicial.png
+│       └── ui_streamlit.png
+│
+├── notebooks/                  # Jupyter Notebooks
+│   └── EDA.ipynb
+│
+├── src/                        # Código fuente del proyecto
+│   └── api/                    # Módulo de la API
+│       ├── main.py
+│       ├── modelo.py
+│       └── preparar_datos.py
+│
+├── tests/                      # Pruebas unitarias y contractuales
+│   └── test_api_contract.py
+│
+├── .gitignore
+├── LICENSE
+├── poetry.lock
+├── pyproject.toml
+├── pytest.ini
+└── README.md
+```
 
 ## 💻 Uso y Ejecución de la Aplicación
 El sistema requiere que el servidor de la API y la interfaz de usuario se ejecuten simultáneamente en dos procesos separados.
